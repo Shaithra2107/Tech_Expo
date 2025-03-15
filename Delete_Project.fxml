@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cw_1601_sem2.DeleteProject">
+    <children>
+        <Text layoutX="210.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Project ID : " />
+        <TextField fx:id="id" layoutX="299.0" layoutY="163.0" promptText="Project ID" />
+        <Label fx:id="mylabel" layoutX="448.0" layoutY="262.0" prefHeight="30.0" prefWidth="254.0" style="--block-text-color: red " textAlignment="CENTER" />
+        <Button layoutX="311.0" layoutY="302.0" mnemonicParsing="false" onAction="#Delete" prefHeight="55.0" prefWidth="114.0" text="Delete" />
+        <VBox prefHeight="55.0" prefWidth="750.0">
+            <children>
+                <Pane prefHeight="55.0" prefWidth="750.0" style="-fx-border-color: black;">
+                    <children>
+                        <Text fill="#70ad47" layoutX="264.0" layoutY="35.0" stroke="#b72a2a" strokeType="OUTSIDE" strokeWidth="0.0" text="Deleting Project Details ">
+                            <font>
+                                <Font name="Times New Roman Bold" size="22.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </Pane>
+            </children>
+        </VBox>
+      <TextField fx:id="validation" layoutX="300.0" layoutY="219.0" promptText="Yes/No" />
+      <Text fx:id="confirm" layoutX="33.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Are you sure you want to delete the details :" wrappingWidth="241.6708984374999" />
+    </children>
+</AnchorPane>

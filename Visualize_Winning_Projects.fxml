@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" prefHeight="438.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cw_1601_sem2.VisualizeWinningProjects">
+    <children>
+        <BarChart fx:id="barChart" layoutX="135.0" layoutY="104.0" prefHeight="320.0" prefWidth="434.0">
+            <yAxis>
+                <CategoryAxis fx:id="yAxis" label="Projects" />
+            </yAxis>
+            <xAxis>
+                <NumberAxis label="Points" fx:id="xAxis" />
+            </xAxis>
+        </BarChart>
+        <Pane layoutX="26.0" layoutY="118.0" prefHeight="269.0" prefWidth="126.0" />
+        <Pane layoutX="3.0" prefHeight="88.0" prefWidth="594.0">
+            <children>
+                <Text fill="#b11aa2" layoutX="131.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Visualize Winning Projects" wrappingWidth="347.13670349121094">
+                    <font>
+                        <Font name="Times New Roman" size="30.0" />
+                    </font>
+                </Text>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

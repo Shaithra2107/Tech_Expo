@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cw_1601_sem2.ViewProjectDetails">
+    <TableView fx:id="table" layoutY="55.0" prefHeight="487.0" prefWidth="750.0" BorderPane.alignment="CENTER">
+        <columns>
+            <TableColumn fx:id="id" prefWidth="53.60000687837601" text="ID" />
+            <TableColumn fx:id="name" prefWidth="124.66662216186523" text="Name" />
+            <TableColumn fx:id="members" prefWidth="155.33334350585938" text="Team Members" />
+            <TableColumn fx:id="description" prefWidth="141.66668701171875" text="Description" />
+            <TableColumn fx:id="country" minWidth="4.66668701171875" prefWidth="95.66668701171875" text="Country" />
+            <TableColumn fx:id="logo" prefWidth="93.33331298828125" text="Logo" />
+            <TableColumn fx:id="category" minWidth="0.0" prefWidth="96.0" text="Category" />
+
+        </columns>
+    </TableView>
+    <VBox prefHeight="55.0" prefWidth="750.0">
+        <children>
+
+            <Pane prefHeight="55.0" prefWidth="728.0" style="-fx-border-color: black;">
+                <children>
+                    <Text fill="#ff009d" layoutX="277.0" layoutY="35.0" stroke="#b72a2a" strokeType="OUTSIDE" strokeWidth="0.0" text="View Project Deatails ">
+                        <font>
+                            <Font name="Times New Roman Bold" size="22.0" />
+                        </font>
+                    </Text>
+                </children>
+            </Pane>
+        </children>
+    </VBox>
+</AnchorPane>

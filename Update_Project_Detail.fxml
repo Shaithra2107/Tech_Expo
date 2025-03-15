@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="430.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cw_1601_sem2.UpdateProjectDetail">
+   <children>
+      <Text layoutX="54.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Project ID : " />
+      <TextField fx:id="id" layoutX="163.0" layoutY="97.0" promptText="Project ID" />
+      <Text layoutX="54.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Project Name :" />
+      <TextField fx:id="name" layoutX="163.0" layoutY="158.0" promptText="New Project Name" />
+      <Text layoutX="54.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description :" />
+      <TextField fx:id="detail" layoutX="163.0" layoutY="240.0" promptText="New Description" />
+      <Text layoutX="54.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team Members :" />
+      <TextField fx:id="members" layoutX="163.0" layoutY="199.0" promptText="New Members" />
+      <Text layoutX="54.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Country :" />
+      <TextField fx:id="country" layoutX="163.0" layoutY="284.0" promptText="New Country" />
+      <Text layoutX="54.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team Logo :" />
+      <Button fx:id="logo_button" layoutX="164.0" layoutY="327.0" onAction="#handleUploadButtonAction" text="Upload Team Logo" />
+      <Text layoutX="57.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category :" />
+      <ChoiceBox fx:id="category" layoutX="163.0" layoutY="382.0" prefWidth="150.0" />
+      <Button layoutX="358.0" layoutY="467.0" mnemonicParsing="false" onAction="#save" prefHeight="38.0" prefWidth="79.0" text="Save" />
+      <Label fx:id="mylabel" layoutX="429.0" layoutY="378.0" prefHeight="30.0" prefWidth="254.0" />
+      <Separator layoutX="53.0" layoutY="134.0" prefHeight="16.0" prefWidth="592.0" />
+      <Button layoutX="349.0" layoutY="96.0" mnemonicParsing="false" onAction="#Check" text="Check" />
+      <Text fx:id="valid" layoutX="57.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the Project ID Check">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <VBox prefHeight="54.0" prefWidth="748.0">
+         <children>
+            <Pane prefHeight="55.0" prefWidth="735.0" style="-fx-border-color: black;">
+               <children>
+                  <Text fx:id="upd" fill="#ed7d31" layoutX="267.0" layoutY="35.0" stroke="#b72a2a" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Project Deatails ">
+                     <font>
+                        <Font name="Times New Roman Bold" size="22.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <ImageView fx:id="teamLogoImageView" fitHeight="54.0" fitWidth="61.0" layoutX="320.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
