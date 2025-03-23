@@ -1,0 +1,10 @@
+Category: CS
+id: 43, name: Alphaa, team members: Alice,Bob, description: innovative AI project, country: China, logoPath: D:\CM-1601-CW-SEM2\CW_1601_SEM2\src\main\resources\com\example\cw_1601_sem2\Project_logo\CS.jpg
+id: 69, name: Theta, team members: Mike,Nina, description: CS fundamentals, country: India, logoPath: D:\CM-1601-CW-SEM2\CW_1601_SEM2\src\main\resources\com\example\cw_1601_sem2\Project_logo\CS2.png
+Category: SE
+id: 78, name: Epsilon, team members: Ivy,Jack, description: Agile methodology, country: Cuba, logoPath: D:\CM-1601-CW-SEM2\CW_1601_SEM2\src\main\resources\com\example\cw_1601_sem2\Project_logo\DS.png
+id: 67, name: Delta, team members: Grace,Henry,fvgb, description: Engineering practices, country: Australia, logoPath: D:\CM-1601-CW-SEM2\CW_1601_SEM2\src\main\resources\com\example\cw_1601_sem2\Project_logo\SE.jpeg
+Category: AI
+id: 45, name: Beta, team members: Charlie,Dana,fgh, description: AI algorithms, country: Srilanka, logoPath: D:\CM-1601-CW-SEM2\CW_1601_SEM2\src\main\resources\com\example\cw_1601_sem2\Project_logo\AI.jpg
+Category: DS
+id: 55, name: Lambda, team members: Sarah,Tom,Mani, description: DataScience technique, country: Japan, logoPath: D:\CM-1601-CW-SEM2\CW_1601_SEM2\src\main\resources\com\example\cw_1601_sem2\Project_logo\DS2.jpg

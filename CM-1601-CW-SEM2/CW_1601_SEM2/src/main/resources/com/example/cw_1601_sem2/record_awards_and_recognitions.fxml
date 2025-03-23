@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane prefHeight="441.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cw_1601_sem2.RecordAwardsAndRecognitions">
+    <VBox alignment="CENTER" prefHeight="441.0" prefWidth="678.0" spacing="10">
+      <Text fill="#1a980e" strokeType="OUTSIDE" strokeWidth="0.0" text="Record Award Recognition">
+         <font>
+            <Font name="Bodoni MT" size="29.0" />
+         </font>
+      </Text>
+            <TableView fx:id="table" prefHeight="361.0" prefWidth="686.0" BorderPane.alignment="CENTER">
+                <columns>
+                    <TableColumn fx:id="id" prefWidth="50" text="ID" />
+                    <TableColumn fx:id="name" prefWidth="111.0" text="Name" />
+                    <TableColumn fx:id="members" prefWidth="144.33334350585938" text="Team Members" />
+                    <TableColumn fx:id="description" prefWidth="176.66665649414062" text="Description" />
+                    <TableColumn fx:id="country" prefWidth="112.66668701171875" text="Country" />
+                    <TableColumn fx:id="category" prefWidth="74.33331298828125" text="Category" />
+                    <TableColumn fx:id="points" prefWidth="93.0" text="Points" />
+                </columns>
+            </TableView>
+        <Button onAction="#rateProjects" text="Rate Projects" textFill="#1a980e" />
+    </VBox>
+</StackPane>

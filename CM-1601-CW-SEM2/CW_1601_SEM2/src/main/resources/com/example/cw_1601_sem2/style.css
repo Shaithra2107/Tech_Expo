@@ -1,0 +1,106 @@
+/* Style for all buttons */
+.button {
+    -fx-background-color: #a57857; /* background */
+    -fx-text-fill: white;         /* White text color */
+    -fx-font-size: 12.3px;        /* Font size */
+    -fx-padding: 5px 10px;        /* Padding */
+    -fx-border-radius: 5px;       /* Rounded corners */
+    -fx-background-radius: 5px;   /* Rounded background corners */
+    -fx-font-weight: bold;        /* Bold text */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 3, 0, 0, 1); /* Shadow effect */
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    -fx-background-color: #935437; /* Darker on hover */
+}
+
+/* Focus effect for buttons */
+.button:focused {
+    -fx-border-color: #f5c6a0; /* Light border color when focused */
+    -fx-border-width: 2px;     /* Border width when focused */
+}
+
+/* Style for text fields */
+.text-field {
+    -fx-background-color: #f5f5f5; /* Light background */
+    -fx-text-fill: #333;           /* Dark text color */
+    -fx-border-color: #ddd;        /* Light border color */
+    -fx-border-radius: 5px;        /* Rounded border */
+    -fx-padding: 5px 10px;         /* Padding inside text field */
+    -fx-font-size: 12px;           /* Font size */
+}
+
+/* Focus effect for text fields */
+.text-field:focused {
+    -fx-border-color: #a57857;     /* Border color when focused */
+    -fx-border-width: 2px;         /* Border width when focused */
+}
+
+/* Style for labels */
+.label {
+    -fx-font-size: 14px;            /* Font size */
+    -fx-text-fill: #333;            /* Dark text color */
+    -fx-font-weight: bold;          /* Bold text */
+    -fx-padding: 5px;               /* Padding */
+}
+
+/* Style for alert dialogs */
+.alert {
+    -fx-background-color: #f9f9f9;  /* Light background color */
+    -fx-text-fill: #333;            /* Dark text color */
+    -fx-border-radius: 5px;        /* Rounded corners */
+    -fx-padding: 10px;             /* Padding */
+}
+
+
+/* Style for table view rows */
+
+.table-view .table-row-cell {
+    -fx-background-color: #c5b8b8;      /* White background for table rows */
+    -fx-text-fill: black;            /* Black text color for table cells */
+}
+
+/* Hover effect for table view rows */
+.table-view .table-row-cell:hover {
+    -fx-background-color: #cd9e87;   /* Light gray on hover */
+}
+
+/* Style for table view headers */
+.table-view .column-header {
+    -fx-background-color: #a57857;   /* Background color */
+    -fx-font-weight: bold;           /* Bold text */
+    -fx-font-size: 14px;             /* Font size */
+}
+
+
+/* Style for chart bars */
+.default-color0.chart-bar {
+    -fx-bar-fill: #9a5d3e;          /* Bar fill color */
+}
+
+/* Additional style for chart background */
+.chart {
+    -fx-background-color: #f5f5f5; /* Light background for the chart */
+    -fx-border-color: #ddd;        /* Light border color */
+    -fx-border-width: 1px;         /* Border width */
+}
+/* Style for the application background */
+.root {
+    -fx-background-color: #c5b8b8;  /* Dark background color for the application */
+}
+
+/* Style for the Pane */
+.custom-pane {
+    -fx-background-color: #55463f;  /* Background color */
+}
+
+/* Style for the Label within the Pane */
+.custom-label {
+    -fx-text-fill: #e2c3c3;          /* Text color */
+    -fx-font-family: "Bold Italic"; /* Font family */
+    -fx-font-size: 33px;             /* Font size */
+    -fx-layout-x: 275px;             /* Horizontal position */
+    -fx-layout-y: 9px;               /* Vertical position */
+}
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cw_1601_sem2.AddingProjects">
+
+    <children>
+        <VBox alignment="CENTER" layoutX="20.0" layoutY="20.0" spacing="10.0">
+            <Pane prefHeight="55.0" prefWidth="760.0" style="-fx-border-color: black;">
+                <children>
+                    <Text fill="#5141ff" layoutX="290.0" layoutY="35.0" stroke="#b72a2a" strokeType="OUTSIDE" strokeWidth="0.0" text="Adding Project Details">
+                        <font>
+                            <Font name="Times New Roman Bold" size="22.0" />
+                        </font>
+                    </Text>
+                </children>
+            </Pane>
+            <HBox alignment="BASELINE_LEFT" prefHeight="326.0" prefWidth="760.0" spacing="20.0">
+                <VBox prefHeight="346.0" prefWidth="460.0" spacing="15.0">
+                    <HBox alignment="CENTER_LEFT" spacing="10.0">
+                        <Text text="Project ID :" />
+                        <TextField fx:id="id" prefHeight="25.0" prefWidth="126.0" promptText="Project ID" />
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" spacing="10.0">
+                        <Text text="Project Name :" />
+                        <TextField fx:id="name" promptText="Project Name" />
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" spacing="10.0">
+                        <Text text="Team Members :" />
+                        <TextField fx:id="members" promptText="Team Members" />
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" spacing="10.0">
+                        <Text text="Description :" />
+                        <TextField fx:id="detail" promptText="Description" />
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" spacing="10.0">
+                        <Text text="Country :" />
+                        <TextField fx:id="country" promptText="Country" />
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" spacing="10.0">
+                        <Text text="Category :" />
+                        <ChoiceBox fx:id="category" prefWidth="150.0" />
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" layoutX="29.0" prefHeight="80.0" prefWidth="450.0" spacing="10.0">
+                        <Text text="Team Logo :" />
+                        <Button fx:id="logo_button" onAction="#handleUploadButtonAction" prefHeight="34.0" prefWidth="161.0" text="Upload Team Logo" />
+                        <ImageView fx:id="teamLogoImageView" fitHeight="102.0" fitWidth="115.0" mouseTransparent="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin></ImageView>
+
+                    </HBox>
+                </VBox>
+            <effect>
+               <Blend />
+            </effect>
+            </HBox>
+            <Button alignment="CENTER" layoutX="350.0" layoutY="500.0" mnemonicParsing="false" onAction="#save" prefHeight="40.0" prefWidth="92.0" text="Save" />
+        </VBox>
+    </children>
+</AnchorPane>

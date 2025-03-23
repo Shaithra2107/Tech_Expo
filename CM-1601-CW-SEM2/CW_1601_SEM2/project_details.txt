@@ -1,0 +1,2 @@
+Category: AI
+id: 1, name: Software Engineering, team members: John,Jane, description: description, country: SE, logoPath: null
